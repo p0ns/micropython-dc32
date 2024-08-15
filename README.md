@@ -2,5 +2,5 @@
 - Pull st7789_mpy from https://github.com/russhughes/st7789_mpy
 - Install tools for building micropython 
 - Build micropython for rp2350 with st7789_mpy `make BOARD=RPI_PICO2 USER_C_MODULES=path/to/st7789_mpy/st7789/micropython.cmake`
-- Flash firmware.u2f
-- Run python code
+- Flash firmware.u2f by copying to badge in bootloader mode
+- Use [Thonny](https://thonny.org/) to upload and run python code
