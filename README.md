@@ -1,0 +1,6 @@
+- Pull micropython for rp2350 (not yet merged to micropython repo) https://github.com/dpgeorge/micropython/tree/rp2-add-rp2350
+- Pull st7789_mpy from https://github.com/russhughes/st7789_mpy
+- Install tools for building micropython 
+- Build micropython for rp2350 with st7789_mpy `make BOARD=RPI_PICO2 USER_C_MODULES=path/to/st7789_mpy/st7789/micropython.cmake`
+- Flash firmware.u2f
+- Run python code
